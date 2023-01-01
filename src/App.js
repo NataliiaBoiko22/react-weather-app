@@ -22,6 +22,13 @@ export default function App() {
             target="_blank"
             rel="noreferrer">
             open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://mellifluous-churros-4ed6d3.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            hosted on Netlify
           </a>
         </footer>
       </div>

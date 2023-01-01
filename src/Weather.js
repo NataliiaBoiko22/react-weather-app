@@ -13,7 +13,7 @@ export default function Weather(props) {
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       iconUrl:
-        "https://assets.msn.com/weathermapdata/1/static/svg/72/v6/card/CloudyV3.svg",
+        "http://openweathermap.org/img/wn/$[response.data.weather[0].icon]@2x.png",
       wind: response.data.wind.speed,
       city: response.data.name,
     });
