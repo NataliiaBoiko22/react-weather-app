@@ -13,14 +13,14 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/nataliia-boiko-ab48a9242/"
             target="_blank"
-            rel="noreferrer">
+            rel="noopener noreferrer">
             Nataliia Boiko
           </a>{" "}
           and is{" "}
           <a
             href="https://github.com/NataliiaBoiko22/react-weather-app"
             target="_blank"
-            rel="noreferrer">
+            rel="noopener noreferrer">
             open-sourced on GitHub
           </a>{" "}
           and{" "}
