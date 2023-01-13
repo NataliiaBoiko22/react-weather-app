@@ -1,7 +1,18 @@
 .App {
   text-align: center;
+  background-color: #c8c6d1;
+  padding: 30px;
+  width: 1000px;
+  margin: 0 auto;
+  background-image: url(../src/Images/Clouds.jpg);
 }
-
+.title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 28px;
+  color: #525154;
+  margin-top: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,7 +34,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-footer {
+  min-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: #525154;
+}
 .App-link {
   color: #61dafb;
 }

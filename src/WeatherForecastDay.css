@@ -1,0 +1,8 @@
+.WeatherForecastDay {
+  border-radius: 5px;
+  background-color: rgb(207, 202, 230);
+}
+.WeatherForecast-temperatures,
+.WeatherForecast-day {
+  font-size: 24px;
+}
